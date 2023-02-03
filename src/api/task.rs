@@ -1,6 +1,5 @@
 use crate::model::task::TaskState;
-use crate::model::task::{self, Task};
-use crate::repository::ddb::DDBRepository;
+use crate::{model::task::Task, repository::ddb::DDBRepository};
 use actix_web::{
     error::ResponseError,
     get,
